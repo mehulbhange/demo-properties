@@ -10,7 +10,6 @@ import lombok.Data;
 public class UserProperty {
 
     @Id
-    @GeneratedValue
     private Long _id;
     private String name;
     private String city;
