@@ -17,7 +17,7 @@ public class UserPropertyController {
     @Autowired
     private PropertyService propertyService;
 
-    @GetMapping("health")
+    @GetMapping("/health")
     public String hello(){
         return "I'm healthy !!!";
     }
