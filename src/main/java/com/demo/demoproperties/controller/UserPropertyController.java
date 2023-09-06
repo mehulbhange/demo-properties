@@ -28,7 +28,7 @@ public class UserPropertyController {
         return ResponseEntity.ok(up);
     }
 
-    @GetMapping("/property")
+    @GetMapping("/properties")
     public ResponseEntity<List<UserProperty>> getAllProperties(){
         return ResponseEntity.ok(propertyService.getAllProperties());
     }
